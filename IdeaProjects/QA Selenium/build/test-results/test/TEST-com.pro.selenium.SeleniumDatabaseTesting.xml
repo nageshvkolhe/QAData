@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pro.selenium.SeleniumDatabaseTesting" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-02T17:24:21" hostname="NAGESH" time="8.46">
+  <properties/>
+  <testcase name="delete_row_from_table" classname="com.pro.selenium.SeleniumDatabaseTesting" time="5.501"/>
+  <testcase name="get_table_Data" classname="com.pro.selenium.SeleniumDatabaseTesting" time="0.14"/>
+  <testcase name="insert_table_data" classname="com.pro.selenium.SeleniumDatabaseTesting" time="1.254"/>
+  <testcase name="update_values_into_table" classname="com.pro.selenium.SeleniumDatabaseTesting" time="1.549"/>
+  <system-out><![CDATA[*********RESULT********
+user_id :100  user_name :nagesh  user_email :nagesh@gmail.com  user_password :nagesh@gmail.comuser_id :200  user_name :mahesh  user_email :sawrate@gmail.com  user_password :sawrate@gmail.comuser_id :300  user_name :sumedh  user_email :sumedh@gmail.com  user_password :sumedh@gmail.comuser_id :1800  user_name :Mahesh  user_email :mahesh@gmail.com  user_password :mahesh@gmail.com*********RESULT********
+user_id :100  user_name :nagesh  user_email :nagesh@gmail.com  user_password :nagesh@gmail.comuser_id :200  user_name :mahesh  user_email :sawrate@gmail.com  user_password :sawrate@gmail.comuser_id :300  user_name :sumedh  user_email :sumedh@gmail.com  user_password :sumedh@gmail.comuser_id :1800  user_name :Mahesh  user_email :mahesh@gmail.com  user_password :mahesh@gmail.com*********RESULT********
+user_id :100  user_name :nagesh  user_email :nagesh@gmail.com  user_password :nagesh@gmail.comuser_id :200  user_name :mahesh  user_email :sawrate@gmail.com  user_password :sawrate@gmail.comuser_id :300  user_name :sumedh  user_email :sumedh@gmail.com  user_password :sumedh@gmail.comuser_id :1800  user_name :Mahesh  user_email :mahesh@gmail.com  user_password :mahesh@gmail.comuser_id :1900  user_name :Ghesh  user_email :mahesh@gmail.com  user_password :mahesh@gmail.com*********RESULT********
+user_id :100  user_name :nagesh  user_email :nagesh@gmail.com  user_password :nagesh@gmail.comuser_id :200  user_name :mahesh  user_email :sawrate@gmail.com  user_password :sawrate@gmail.comuser_id :300  user_name :sumedh  user_email :sumedh@gmail.com  user_password :sumedh@gmail.comuser_id :1800  user_name :Mahesh  user_email :mahesh@gmail.com  user_password :mahesh@gmail.comuser_id :1900  user_name :Mahesh  user_email :mahesh@gmail.com  user_password :mahesh@gmail.com]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

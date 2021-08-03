@@ -1,0 +1,650 @@
+{
+    "collaborative": false,
+/    "description": "New playlist description",
+    "external_urls": {
+N        "spotify": "https://open.spotify.com/playlist/2Ph6GSm15DjrAbXHq8DUyX"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+K    "href": "https://api.spotify.com/v1/playlists/2Ph6GSm15DjrAbXHq8DUyX",
+$    "id": "2Ph6GSm15DjrAbXHq8DUyX",
+    "images": [
+	        
+    ],
+    "name": "nagesh moody",
+    "owner": {
+(        "display_name": "Nagesh Kolhe",
+        "external_urls": {
+T            "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+        },
+Q        "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+.        "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+        "type": "user",
+;        "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+    },
+    "primary_color": null,
+    "public": false,
+O    "snapshot_id": "MSw5NjNiY2JkMTlkNzVjMmE3YTZiZGNkM2JhOGFlYzU4NjgzOTUyYjM3",
+    "tracks": {
+V        "href": "https://api.spotify.com/v1/playlists/2Ph6GSm15DjrAbXHq8DUyX/tracks",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+5    "uri": "spotify:playlist:2Ph6GSm15DjrAbXHq8DUyX"
+}
+{
+i    "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e/playlists?offset=0&limit=20",
+    "items": [
+
+        {
+$            "collaborative": false,
+7            "description": "New playlist description",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/2Ph6GSm15DjrAbXHq8DUyX"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/2Ph6GSm15DjrAbXHq8DUyX",
+,            "id": "2Ph6GSm15DjrAbXHq8DUyX",
+            "images": [
+                
+            ],
+$            "name": "nagesh moody",
+            "owner": {
+0                "display_name": "Nagesh Kolhe",
+#                "external_urls": {
+\                    "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+                },
+Y                "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+6                "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+                 "type": "user",
+C                "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+            },
+#            "primary_color": null,
+            "public": false,
+W            "snapshot_id": "Miw0ZTVkNGYyMTQ3M2M1YTA4ZmQyYmY1NmVjZDVhZmY5MzkyNGZhMDNm",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/2Ph6GSm15DjrAbXHq8DUyX/tracks",
+                "total": 0
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:2Ph6GSm15DjrAbXHq8DUyX"
+        },
+
+        {
+$            "collaborative": false,
+7            "description": "New playlist description",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/2m2QgA7mC1mnDZBfLX6f3p"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/2m2QgA7mC1mnDZBfLX6f3p",
+,            "id": "2m2QgA7mC1mnDZBfLX6f3p",
+            "images": [
+                {
+$                    "height": null,
+_                    "url": "https://i.scdn.co/image/ab67706c0000bebba15cfd42c637e81a5e98c6a6",
+"                    "width": null
+                }
+            ],
+$            "name": "nagesh moody",
+            "owner": {
+0                "display_name": "Nagesh Kolhe",
+#                "external_urls": {
+\                    "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+                },
+Y                "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+6                "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+                 "type": "user",
+C                "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+            },
+#            "primary_color": null,
+            "public": false,
+W            "snapshot_id": "MywwNmYyZTdhOGQ3MGZlMDYxNzNmMWVlOTUzMWZjYmE2MjQwMjU2M2Qx",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/2m2QgA7mC1mnDZBfLX6f3p/tracks",
+                "total": 0
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:2m2QgA7mC1mnDZBfLX6f3p"
+        },
+
+        {
+$            "collaborative": false,
+$            "description": "Ashok",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/4ZvbGcoJTHivGQ2MFVSXQB"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/4ZvbGcoJTHivGQ2MFVSXQB",
+,            "id": "4ZvbGcoJTHivGQ2MFVSXQB",
+            "images": [
+                {
+$                    "height": null,
+_                    "url": "https://i.scdn.co/image/ab67706c0000bebb4187b5216426cd522384fd8b",
+"                    "width": null
+                }
+            ],
+(            "name": "Ashok Favourites",
+            "owner": {
+0                "display_name": "Nagesh Kolhe",
+#                "external_urls": {
+\                    "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+                },
+Y                "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+6                "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+                 "type": "user",
+C                "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+            },
+#            "primary_color": null,
+            "public": false,
+W            "snapshot_id": "NyxlMjg0N2RkNTk4ZmM5NTBlODI4ZmQ3M2I3NDVmMWNjZTE1MmUwM2Ey",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/4ZvbGcoJTHivGQ2MFVSXQB/tracks",
+                "total": 4
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:4ZvbGcoJTHivGQ2MFVSXQB"
+        },
+
+        {
+$            "collaborative": false,
+            "description": "",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/5orB0WyRSd0lNeI0Fu0Pi2"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/5orB0WyRSd0lNeI0Fu0Pi2",
+,            "id": "5orB0WyRSd0lNeI0Fu0Pi2",
+            "images": [
+                
+            ],
+            "name": "HipHop",
+            "owner": {
+0                "display_name": "Nagesh Kolhe",
+#                "external_urls": {
+\                    "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+                },
+Y                "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+6                "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+                 "type": "user",
+C                "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+            },
+#            "primary_color": null,
+            "public": false,
+W            "snapshot_id": "MSxhZmQ4MjFkZTJhZGVkNGQ4NTIzZTdhNjJkZGFkNGVkZjRlMjkwMjhl",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/5orB0WyRSd0lNeI0Fu0Pi2/tracks",
+                "total": 0
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:5orB0WyRSd0lNeI0Fu0Pi2"
+        },
+
+        {
+$            "collaborative": false,
+7            "description": "New playlist description",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/5QT5pwwicymkyaEuFA0uoQ"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/5QT5pwwicymkyaEuFA0uoQ",
+,            "id": "5QT5pwwicymkyaEuFA0uoQ",
+            "images": [
+                
+            ],
+            "name": "HipHop",
+            "owner": {
+0                "display_name": "Nagesh Kolhe",
+#                "external_urls": {
+\                    "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+                },
+Y                "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+6                "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+                 "type": "user",
+C                "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+            },
+#            "primary_color": null,
+            "public": false,
+W            "snapshot_id": "MixmYTU5YTUwMThhN2Q3MzMyZDA0YzU4Zjk2ZWU3OGEwNjA0ODgwZTUz",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/5QT5pwwicymkyaEuFA0uoQ/tracks",
+                "total": 0
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:5QT5pwwicymkyaEuFA0uoQ"
+        },
+
+        {
+$            "collaborative": false,
+7            "description": "New playlist description",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/09BqZqttOWSD55QinK8uZ8"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/09BqZqttOWSD55QinK8uZ8",
+,            "id": "09BqZqttOWSD55QinK8uZ8",
+            "images": [
+                
+            ],
+            "name": "HipHop",
+            "owner": {
+0                "display_name": "Nagesh Kolhe",
+#                "external_urls": {
+\                    "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+                },
+Y                "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+6                "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+                 "type": "user",
+C                "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+            },
+#            "primary_color": null,
+            "public": false,
+W            "snapshot_id": "MiwxYzBhNWEzMDk4OTZkYzZiOTNmOTI1YjhlODg4NWY0ODJiYmQzMTAz",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/09BqZqttOWSD55QinK8uZ8/tracks",
+                "total": 0
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:09BqZqttOWSD55QinK8uZ8"
+        },
+
+        {
+$            "collaborative": false,
+7            "description": "New playlist description",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/6CxQl7cGubtpHNH0NVZWaY"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/6CxQl7cGubtpHNH0NVZWaY",
+,            "id": "6CxQl7cGubtpHNH0NVZWaY",
+            "images": [
+                
+            ],
+!            "name": "Bollywood",
+            "owner": {
+0                "display_name": "Nagesh Kolhe",
+#                "external_urls": {
+\                    "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+                },
+Y                "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+6                "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+                 "type": "user",
+C                "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+            },
+#            "primary_color": null,
+            "public": false,
+W            "snapshot_id": "MixlOGVhOWZlYTRkM2EwZWYzMmYxZGYwNDFlMDNiZDA0OTQ3Y2Q5NmIx",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/6CxQl7cGubtpHNH0NVZWaY/tracks",
+                "total": 0
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:6CxQl7cGubtpHNH0NVZWaY"
+        },
+
+        {
+$            "collaborative": false,
+0            "description": "Updated playlist ",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/5gfE5XNs4Kh5AxosaAMCaE"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/5gfE5XNs4Kh5AxosaAMCaE",
+,            "id": "5gfE5XNs4Kh5AxosaAMCaE",
+            "images": [
+                {
+$                    "height": null,
+_                    "url": "https://i.scdn.co/image/ab67706c0000bebbab396bf3a3fa29a06b977b8e",
+"                    "width": null
+                }
+            ],
+            "name": "Hiphop2",
+            "owner": {
+0                "display_name": "Nagesh Kolhe",
+#                "external_urls": {
+\                    "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+                },
+Y                "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+6                "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+                 "type": "user",
+C                "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+            },
+#            "primary_color": null,
+            "public": false,
+[            "snapshot_id": "MTQsZmIwM2JlNWJjZDA5MDdjZTM1YzU0YWNkOTI5MWFmOTA3MTk3ODE3Nw==",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/5gfE5XNs4Kh5AxosaAMCaE/tracks",
+                "total": 6
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:5gfE5XNs4Kh5AxosaAMCaE"
+
+        }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 8
+}
+{
+Q    "href": "https://api.spotify.com/v1/users/null/playlists?offset=0&limit=20",
+    "items": [
+
+        {
+$            "collaborative": false,
+            "description": "",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/1PEozJHJow2xax9JZegUwT"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/1PEozJHJow2xax9JZegUwT",
+,            "id": "1PEozJHJow2xax9JZegUwT",
+            "images": [
+                {
+#                    "height": 640,
+Ú                    "url": "https://mosaic.scdn.co/640/ab67616d0000b273049fa842b81087b804dbf792ab67616d0000b2731203fd3545191a54fb87a4caab67616d0000b273c34c84629aa6f6e1c8ba5ac7ab67616d0000b273c6a824e04d945fbf3aca2a08",
+!                    "width": 640
+                },
+                {
+#                    "height": 300,
+Ú                    "url": "https://mosaic.scdn.co/300/ab67616d0000b273049fa842b81087b804dbf792ab67616d0000b2731203fd3545191a54fb87a4caab67616d0000b273c34c84629aa6f6e1c8ba5ac7ab67616d0000b273c6a824e04d945fbf3aca2a08",
+!                    "width": 300
+                },
+                {
+"                    "height": 60,
+Ù                    "url": "https://mosaic.scdn.co/60/ab67616d0000b273049fa842b81087b804dbf792ab67616d0000b2731203fd3545191a54fb87a4caab67616d0000b273c34c84629aa6f6e1c8ba5ac7ab67616d0000b273c6a824e04d945fbf3aca2a08",
+                     "width": 60
+                }
+            ],
+            "name": "??",
+            "owner": {
+(                "display_name": "null",
+#                "external_urls": {
+D                    "spotify": "https://open.spotify.com/user/null"
+                },
+A                "href": "https://api.spotify.com/v1/users/null",
+                "id": "null",
+                 "type": "user",
++                "uri": "spotify:user:null"
+            },
+#            "primary_color": null,
+            "public": true,
+[            "snapshot_id": "NjcsMDk3MDNiN2M2ZjgyMzNkMzZkMjRkYTg4MjljNzI1MGEwNWZkMzA3MA==",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/1PEozJHJow2xax9JZegUwT/tracks",
+                "total": 43
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:1PEozJHJow2xax9JZegUwT"
+        },
+
+        {
+$            "collaborative": false,
+            "description": "",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/25bsRdQDyIlT0LT2CRyPc3"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/25bsRdQDyIlT0LT2CRyPc3",
+,            "id": "25bsRdQDyIlT0LT2CRyPc3",
+            "images": [
+                {
+#                    "height": 640,
+Ú                    "url": "https://mosaic.scdn.co/640/ab67616d0000b27366905c088b1c8896399a9875ab67616d0000b2737948cddf97150521c097ec44ab67616d0000b27389da3a1ffd368cd7652ef75cab67616d0000b273b5ebd91333e5d305dc7d15a4",
+!                    "width": 640
+                },
+                {
+#                    "height": 300,
+Ú                    "url": "https://mosaic.scdn.co/300/ab67616d0000b27366905c088b1c8896399a9875ab67616d0000b2737948cddf97150521c097ec44ab67616d0000b27389da3a1ffd368cd7652ef75cab67616d0000b273b5ebd91333e5d305dc7d15a4",
+!                    "width": 300
+                },
+                {
+"                    "height": 60,
+Ù                    "url": "https://mosaic.scdn.co/60/ab67616d0000b27366905c088b1c8896399a9875ab67616d0000b2737948cddf97150521c097ec44ab67616d0000b27389da3a1ffd368cd7652ef75cab67616d0000b273b5ebd91333e5d305dc7d15a4",
+                     "width": 60
+                }
+            ],
+#            "name": "Violas kÃ¶k",
+            "owner": {
+(                "display_name": "null",
+#                "external_urls": {
+D                    "spotify": "https://open.spotify.com/user/null"
+                },
+A                "href": "https://api.spotify.com/v1/users/null",
+                "id": "null",
+                 "type": "user",
++                "uri": "spotify:user:null"
+            },
+#            "primary_color": null,
+            "public": true,
+[            "snapshot_id": "MTQsYWU4ZWIwZDZhNzUxNzI1ZDIxMWY1OGJiOTRiMjRhZmZhN2Q0MzQ2OQ==",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/25bsRdQDyIlT0LT2CRyPc3/tracks",
+                "total": 11
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:25bsRdQDyIlT0LT2CRyPc3"
+        },
+
+        {
+$            "collaborative": false,
+            "description": "",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/5gfGqtxfvV4QC23LfExbBk"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/5gfGqtxfvV4QC23LfExbBk",
+,            "id": "5gfGqtxfvV4QC23LfExbBk",
+            "images": [
+                {
+#                    "height": 640,
+Ú                    "url": "https://mosaic.scdn.co/640/ab67616d0000b273397164050097ff1625368970ab67616d0000b273a933ccb8e748208d21ca3f08ab67616d0000b273d7d21e3a8dfd81a489a35e29ab67616d0000b273de20cdc5935096897bb687fc",
+!                    "width": 640
+                },
+                {
+#                    "height": 300,
+Ú                    "url": "https://mosaic.scdn.co/300/ab67616d0000b273397164050097ff1625368970ab67616d0000b273a933ccb8e748208d21ca3f08ab67616d0000b273d7d21e3a8dfd81a489a35e29ab67616d0000b273de20cdc5935096897bb687fc",
+!                    "width": 300
+                },
+                {
+"                    "height": 60,
+Ù                    "url": "https://mosaic.scdn.co/60/ab67616d0000b273397164050097ff1625368970ab67616d0000b273a933ccb8e748208d21ca3f08ab67616d0000b273d7d21e3a8dfd81a489a35e29ab67616d0000b273de20cdc5935096897bb687fc",
+                     "width": 60
+                }
+            ],
+"            "name": "Ann-Katrin",
+            "owner": {
+(                "display_name": "null",
+#                "external_urls": {
+D                    "spotify": "https://open.spotify.com/user/null"
+                },
+A                "href": "https://api.spotify.com/v1/users/null",
+                "id": "null",
+                 "type": "user",
++                "uri": "spotify:user:null"
+            },
+#            "primary_color": null,
+            "public": true,
+[            "snapshot_id": "MTIzLDAzODI2OTViZmFjMWYxNGMyODkwZTcwNTA4ZmUxMjExYjk5ZTJiMTg=",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/5gfGqtxfvV4QC23LfExbBk/tracks",
+                "total": 110
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:5gfGqtxfvV4QC23LfExbBk"
+        },
+
+        {
+$            "collaborative": false,
+            "description": "",
+            "external_urls": {
+V                "spotify": "https://open.spotify.com/playlist/2Wqq5oDiNvWSQ8tTZto26e"
+            },
+S            "href": "https://api.spotify.com/v1/playlists/2Wqq5oDiNvWSQ8tTZto26e",
+,            "id": "2Wqq5oDiNvWSQ8tTZto26e",
+            "images": [
+                {
+#                    "height": 640,
+Ú                    "url": "https://mosaic.scdn.co/640/ab67616d0000b273617f78eb4389bb0a7d27719aab67616d0000b2736869ac350535afb4f244dc56ab67616d0000b273921a726111dcda01c318f03eab67616d0000b2739ef5f0d63ad90c3ddef7d3b1",
+!                    "width": 640
+                },
+                {
+#                    "height": 300,
+Ú                    "url": "https://mosaic.scdn.co/300/ab67616d0000b273617f78eb4389bb0a7d27719aab67616d0000b2736869ac350535afb4f244dc56ab67616d0000b273921a726111dcda01c318f03eab67616d0000b2739ef5f0d63ad90c3ddef7d3b1",
+!                    "width": 300
+                },
+                {
+"                    "height": 60,
+Ù                    "url": "https://mosaic.scdn.co/60/ab67616d0000b273617f78eb4389bb0a7d27719aab67616d0000b2736869ac350535afb4f244dc56ab67616d0000b273921a726111dcda01c318f03eab67616d0000b2739ef5f0d63ad90c3ddef7d3b1",
+                     "width": 60
+                }
+            ],
+$            "name": "dansa i kÃ¶k",
+            "owner": {
+(                "display_name": "null",
+#                "external_urls": {
+D                    "spotify": "https://open.spotify.com/user/null"
+                },
+A                "href": "https://api.spotify.com/v1/users/null",
+                "id": "null",
+                 "type": "user",
++                "uri": "spotify:user:null"
+            },
+#            "primary_color": null,
+            "public": true,
+[            "snapshot_id": "OTIsMzIyNGUzOTllOGY3ZWJmMmQxYjdiOGE0MjQ3YjJlZDY1ZjRlOTRmZA==",
+            "tracks": {
+^                "href": "https://api.spotify.com/v1/playlists/2Wqq5oDiNvWSQ8tTZto26e/tracks",
+                "total": 41
+            },
+             "type": "playlist",
+=            "uri": "spotify:playlist:2Wqq5oDiNvWSQ8tTZto26e"
+
+        }
+    ],
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 4
+}
+{
+    "collaborative": false,
+/    "description": "New playlist description",
+    "external_urls": {
+N        "spotify": "https://open.spotify.com/playlist/31DSgZVLJLuYYdmdL7HDmr"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+K    "href": "https://api.spotify.com/v1/playlists/31DSgZVLJLuYYdmdL7HDmr",
+$    "id": "31DSgZVLJLuYYdmdL7HDmr",
+    "images": [
+	        
+    ],
+    "name": "New Playlist",
+    "owner": {
+(        "display_name": "Nagesh Kolhe",
+        "external_urls": {
+T            "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+        },
+Q        "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+.        "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+        "type": "user",
+;        "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+    },
+    "primary_color": null,
+    "public": false,
+O    "snapshot_id": "MywyNTY3YTIyOWU0MWE3ZDBlNjY3ZTg2MTQzODk1NDk4ZjI3ZmFhYjUz",
+    "tracks": {
+i        "href": "https://api.spotify.com/v1/playlists/31DSgZVLJLuYYdmdL7HDmr/tracks?offset=0&limit=100",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+5    "uri": "spotify:playlist:31DSgZVLJLuYYdmdL7HDmr"
+}
+{
+    "error": {
+        "status": 404,
+'        "message": "Service not found"
+    }
+}
+{
+e    "href": "https://api.spotify.com/v1/playlists/31DSgZVLJLuYYdmdL7HDmr/tracks?offset=0&limit=100",
+    "items": [
+	        
+    ],
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total": 0
+}
+	UResponse print using sout: io.restassured.internal.RestAssuredResponseImpl@3776e98a
+	'User Id :316pgn7hgnbehzs4mnxypxxaoz6e
+	{
+	    "country": "IN",
+	$    "display_name": "Nagesh Kolhe",
+	    "email": "",
+	    "explicit_content": {
+	!        "filter_enabled": false,
+	        "filter_locked": false
+	    },
+	    "external_urls": {
+	P        "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+	    },
+	    "followers": {
+	        "href": null,
+	        "total": 0
+	    },
+	M    "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+	*    "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+	    "images": [
+		        
+	    ],
+	    "product": "open",
+	    "type": "user",
+	7    "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+	}
+
+{
+
+$    "display_name": "Nagesh Kolhe",
+
+    "external_urls": {
+
+P        "spotify": "https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e"
+
+    },
+
+    "followers": {
+
+        "href": null,
+
+        "total": 0
+
+    },
+
+M    "href": "https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e",
+
+*    "id": "316pgn7hgnbehzs4mnxypxxaoz6e",
+
+    "images": [
+
+	        
+
+    ],
+
+    "type": "user",
+
+7    "uri": "spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e"
+
+}
+

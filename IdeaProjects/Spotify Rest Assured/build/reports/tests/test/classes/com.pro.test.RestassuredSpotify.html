@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.pro.test.RestassuredSpotify</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.pro.test.RestassuredSpotify</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.pro.test.html">com.pro.test</a> &gt; RestassuredSpotify</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m29.38s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">90%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Add_Items_to_Playlist"></a>
+<h3 class="failures">Add_Items_to_Playlist</h3>
+<span class="code">
+<pre>javax.net.ssl.SSLException: An established connection was aborted by the software in your host machine
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:325)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:268)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:263)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:140)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1462)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1370)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:573)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:557)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:414)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
+	at io.restassured.internal.http.HTTPBuilder.post(HTTPBuilder.java:350)
+	at io.restassured.internal.http.HTTPBuilder$post$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:819)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:157)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:819)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1035)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:819)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:175)
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
+	at com.pro.test.RestassuredSpotify.Add_Items_to_Playlist(RestassuredSpotify.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+	Suppressed: java.net.SocketException: An established connection was aborted by the software in your host machine
+		at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:420)
+		at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+		at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+		at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1052)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:82)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:356)
+		... 144 more
+Caused by: java.net.SocketException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:982)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:457)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:165)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:109)
+	... 141 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Add_Items_to_Playlist</td>
+<td class="failures">30.071s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">Create_Playlist</td>
+<td class="success">12.429s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">List_of_Current_Users_Playlists</td>
+<td class="success">2.312s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">List_of_Users_Playlists</td>
+<td class="success">1.991s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Playlist</td>
+<td class="success">1.721s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Playlist_Cover_Image</td>
+<td class="success">0.502s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Playlist_items</td>
+<td class="success">0.543s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">User_Current_Profile</td>
+<td class="success">36.460s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Users_Profile</td>
+<td class="success">2.102s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">custom_playlist_Cover_Image</td>
+<td class="success">1.245s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>{
+    &quot;collaborative&quot;: false,
+    &quot;description&quot;: &quot;New playlist description&quot;,
+    &quot;external_urls&quot;: {
+        &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/2Ph6GSm15DjrAbXHq8DUyX&quot;
+    },
+    &quot;followers&quot;: {
+        &quot;href&quot;: null,
+        &quot;total&quot;: 0
+    },
+    &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/2Ph6GSm15DjrAbXHq8DUyX&quot;,
+    &quot;id&quot;: &quot;2Ph6GSm15DjrAbXHq8DUyX&quot;,
+    &quot;images&quot;: [
+        
+    ],
+    &quot;name&quot;: &quot;nagesh moody&quot;,
+    &quot;owner&quot;: {
+        &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+        &quot;external_urls&quot;: {
+            &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+        },
+        &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+        &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+        &quot;type&quot;: &quot;user&quot;,
+        &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+    },
+    &quot;primary_color&quot;: null,
+    &quot;public&quot;: false,
+    &quot;snapshot_id&quot;: &quot;MSw5NjNiY2JkMTlkNzVjMmE3YTZiZGNkM2JhOGFlYzU4NjgzOTUyYjM3&quot;,
+    &quot;tracks&quot;: {
+        &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/2Ph6GSm15DjrAbXHq8DUyX/tracks&quot;,
+        &quot;items&quot;: [
+            
+        ],
+        &quot;limit&quot;: 100,
+        &quot;next&quot;: null,
+        &quot;offset&quot;: 0,
+        &quot;previous&quot;: null,
+        &quot;total&quot;: 0
+    },
+    &quot;type&quot;: &quot;playlist&quot;,
+    &quot;uri&quot;: &quot;spotify:playlist:2Ph6GSm15DjrAbXHq8DUyX&quot;
+}
+{
+    &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e/playlists?offset=0&amp;limit=20&quot;,
+    &quot;items&quot;: [
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;New playlist description&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/2Ph6GSm15DjrAbXHq8DUyX&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/2Ph6GSm15DjrAbXHq8DUyX&quot;,
+            &quot;id&quot;: &quot;2Ph6GSm15DjrAbXHq8DUyX&quot;,
+            &quot;images&quot;: [
+                
+            ],
+            &quot;name&quot;: &quot;nagesh moody&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: false,
+            &quot;snapshot_id&quot;: &quot;Miw0ZTVkNGYyMTQ3M2M1YTA4ZmQyYmY1NmVjZDVhZmY5MzkyNGZhMDNm&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/2Ph6GSm15DjrAbXHq8DUyX/tracks&quot;,
+                &quot;total&quot;: 0
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:2Ph6GSm15DjrAbXHq8DUyX&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;New playlist description&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/2m2QgA7mC1mnDZBfLX6f3p&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/2m2QgA7mC1mnDZBfLX6f3p&quot;,
+            &quot;id&quot;: &quot;2m2QgA7mC1mnDZBfLX6f3p&quot;,
+            &quot;images&quot;: [
+                {
+                    &quot;height&quot;: null,
+                    &quot;url&quot;: &quot;https://i.scdn.co/image/ab67706c0000bebba15cfd42c637e81a5e98c6a6&quot;,
+                    &quot;width&quot;: null
+                }
+            ],
+            &quot;name&quot;: &quot;nagesh moody&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: false,
+            &quot;snapshot_id&quot;: &quot;MywwNmYyZTdhOGQ3MGZlMDYxNzNmMWVlOTUzMWZjYmE2MjQwMjU2M2Qx&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/2m2QgA7mC1mnDZBfLX6f3p/tracks&quot;,
+                &quot;total&quot;: 0
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:2m2QgA7mC1mnDZBfLX6f3p&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;Ashok&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/4ZvbGcoJTHivGQ2MFVSXQB&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/4ZvbGcoJTHivGQ2MFVSXQB&quot;,
+            &quot;id&quot;: &quot;4ZvbGcoJTHivGQ2MFVSXQB&quot;,
+            &quot;images&quot;: [
+                {
+                    &quot;height&quot;: null,
+                    &quot;url&quot;: &quot;https://i.scdn.co/image/ab67706c0000bebb4187b5216426cd522384fd8b&quot;,
+                    &quot;width&quot;: null
+                }
+            ],
+            &quot;name&quot;: &quot;Ashok Favourites&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: false,
+            &quot;snapshot_id&quot;: &quot;NyxlMjg0N2RkNTk4ZmM5NTBlODI4ZmQ3M2I3NDVmMWNjZTE1MmUwM2Ey&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/4ZvbGcoJTHivGQ2MFVSXQB/tracks&quot;,
+                &quot;total&quot;: 4
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:4ZvbGcoJTHivGQ2MFVSXQB&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/5orB0WyRSd0lNeI0Fu0Pi2&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/5orB0WyRSd0lNeI0Fu0Pi2&quot;,
+            &quot;id&quot;: &quot;5orB0WyRSd0lNeI0Fu0Pi2&quot;,
+            &quot;images&quot;: [
+                
+            ],
+            &quot;name&quot;: &quot;HipHop&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: false,
+            &quot;snapshot_id&quot;: &quot;MSxhZmQ4MjFkZTJhZGVkNGQ4NTIzZTdhNjJkZGFkNGVkZjRlMjkwMjhl&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/5orB0WyRSd0lNeI0Fu0Pi2/tracks&quot;,
+                &quot;total&quot;: 0
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:5orB0WyRSd0lNeI0Fu0Pi2&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;New playlist description&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/5QT5pwwicymkyaEuFA0uoQ&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/5QT5pwwicymkyaEuFA0uoQ&quot;,
+            &quot;id&quot;: &quot;5QT5pwwicymkyaEuFA0uoQ&quot;,
+            &quot;images&quot;: [
+                
+            ],
+            &quot;name&quot;: &quot;HipHop&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: false,
+            &quot;snapshot_id&quot;: &quot;MixmYTU5YTUwMThhN2Q3MzMyZDA0YzU4Zjk2ZWU3OGEwNjA0ODgwZTUz&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/5QT5pwwicymkyaEuFA0uoQ/tracks&quot;,
+                &quot;total&quot;: 0
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:5QT5pwwicymkyaEuFA0uoQ&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;New playlist description&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/09BqZqttOWSD55QinK8uZ8&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/09BqZqttOWSD55QinK8uZ8&quot;,
+            &quot;id&quot;: &quot;09BqZqttOWSD55QinK8uZ8&quot;,
+            &quot;images&quot;: [
+                
+            ],
+            &quot;name&quot;: &quot;HipHop&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: false,
+            &quot;snapshot_id&quot;: &quot;MiwxYzBhNWEzMDk4OTZkYzZiOTNmOTI1YjhlODg4NWY0ODJiYmQzMTAz&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/09BqZqttOWSD55QinK8uZ8/tracks&quot;,
+                &quot;total&quot;: 0
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:09BqZqttOWSD55QinK8uZ8&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;New playlist description&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/6CxQl7cGubtpHNH0NVZWaY&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/6CxQl7cGubtpHNH0NVZWaY&quot;,
+            &quot;id&quot;: &quot;6CxQl7cGubtpHNH0NVZWaY&quot;,
+            &quot;images&quot;: [
+                
+            ],
+            &quot;name&quot;: &quot;Bollywood&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: false,
+            &quot;snapshot_id&quot;: &quot;MixlOGVhOWZlYTRkM2EwZWYzMmYxZGYwNDFlMDNiZDA0OTQ3Y2Q5NmIx&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/6CxQl7cGubtpHNH0NVZWaY/tracks&quot;,
+                &quot;total&quot;: 0
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:6CxQl7cGubtpHNH0NVZWaY&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;Updated playlist &quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/5gfE5XNs4Kh5AxosaAMCaE&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/5gfE5XNs4Kh5AxosaAMCaE&quot;,
+            &quot;id&quot;: &quot;5gfE5XNs4Kh5AxosaAMCaE&quot;,
+            &quot;images&quot;: [
+                {
+                    &quot;height&quot;: null,
+                    &quot;url&quot;: &quot;https://i.scdn.co/image/ab67706c0000bebbab396bf3a3fa29a06b977b8e&quot;,
+                    &quot;width&quot;: null
+                }
+            ],
+            &quot;name&quot;: &quot;Hiphop2&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: false,
+            &quot;snapshot_id&quot;: &quot;MTQsZmIwM2JlNWJjZDA5MDdjZTM1YzU0YWNkOTI5MWFmOTA3MTk3ODE3Nw==&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/5gfE5XNs4Kh5AxosaAMCaE/tracks&quot;,
+                &quot;total&quot;: 6
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:5gfE5XNs4Kh5AxosaAMCaE&quot;
+        }
+    ],
+    &quot;limit&quot;: 20,
+    &quot;next&quot;: null,
+    &quot;offset&quot;: 0,
+    &quot;previous&quot;: null,
+    &quot;total&quot;: 8
+}
+{
+    &quot;href&quot;: &quot;https://api.spotify.com/v1/users/null/playlists?offset=0&amp;limit=20&quot;,
+    &quot;items&quot;: [
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/1PEozJHJow2xax9JZegUwT&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/1PEozJHJow2xax9JZegUwT&quot;,
+            &quot;id&quot;: &quot;1PEozJHJow2xax9JZegUwT&quot;,
+            &quot;images&quot;: [
+                {
+                    &quot;height&quot;: 640,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/640/ab67616d0000b273049fa842b81087b804dbf792ab67616d0000b2731203fd3545191a54fb87a4caab67616d0000b273c34c84629aa6f6e1c8ba5ac7ab67616d0000b273c6a824e04d945fbf3aca2a08&quot;,
+                    &quot;width&quot;: 640
+                },
+                {
+                    &quot;height&quot;: 300,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/300/ab67616d0000b273049fa842b81087b804dbf792ab67616d0000b2731203fd3545191a54fb87a4caab67616d0000b273c34c84629aa6f6e1c8ba5ac7ab67616d0000b273c6a824e04d945fbf3aca2a08&quot;,
+                    &quot;width&quot;: 300
+                },
+                {
+                    &quot;height&quot;: 60,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/60/ab67616d0000b273049fa842b81087b804dbf792ab67616d0000b2731203fd3545191a54fb87a4caab67616d0000b273c34c84629aa6f6e1c8ba5ac7ab67616d0000b273c6a824e04d945fbf3aca2a08&quot;,
+                    &quot;width&quot;: 60
+                }
+            ],
+            &quot;name&quot;: &quot;??&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;null&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/null&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/null&quot;,
+                &quot;id&quot;: &quot;null&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:null&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: true,
+            &quot;snapshot_id&quot;: &quot;NjcsMDk3MDNiN2M2ZjgyMzNkMzZkMjRkYTg4MjljNzI1MGEwNWZkMzA3MA==&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/1PEozJHJow2xax9JZegUwT/tracks&quot;,
+                &quot;total&quot;: 43
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:1PEozJHJow2xax9JZegUwT&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/25bsRdQDyIlT0LT2CRyPc3&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/25bsRdQDyIlT0LT2CRyPc3&quot;,
+            &quot;id&quot;: &quot;25bsRdQDyIlT0LT2CRyPc3&quot;,
+            &quot;images&quot;: [
+                {
+                    &quot;height&quot;: 640,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/640/ab67616d0000b27366905c088b1c8896399a9875ab67616d0000b2737948cddf97150521c097ec44ab67616d0000b27389da3a1ffd368cd7652ef75cab67616d0000b273b5ebd91333e5d305dc7d15a4&quot;,
+                    &quot;width&quot;: 640
+                },
+                {
+                    &quot;height&quot;: 300,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/300/ab67616d0000b27366905c088b1c8896399a9875ab67616d0000b2737948cddf97150521c097ec44ab67616d0000b27389da3a1ffd368cd7652ef75cab67616d0000b273b5ebd91333e5d305dc7d15a4&quot;,
+                    &quot;width&quot;: 300
+                },
+                {
+                    &quot;height&quot;: 60,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/60/ab67616d0000b27366905c088b1c8896399a9875ab67616d0000b2737948cddf97150521c097ec44ab67616d0000b27389da3a1ffd368cd7652ef75cab67616d0000b273b5ebd91333e5d305dc7d15a4&quot;,
+                    &quot;width&quot;: 60
+                }
+            ],
+            &quot;name&quot;: &quot;Violas kök&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;null&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/null&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/null&quot;,
+                &quot;id&quot;: &quot;null&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:null&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: true,
+            &quot;snapshot_id&quot;: &quot;MTQsYWU4ZWIwZDZhNzUxNzI1ZDIxMWY1OGJiOTRiMjRhZmZhN2Q0MzQ2OQ==&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/25bsRdQDyIlT0LT2CRyPc3/tracks&quot;,
+                &quot;total&quot;: 11
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:25bsRdQDyIlT0LT2CRyPc3&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/5gfGqtxfvV4QC23LfExbBk&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/5gfGqtxfvV4QC23LfExbBk&quot;,
+            &quot;id&quot;: &quot;5gfGqtxfvV4QC23LfExbBk&quot;,
+            &quot;images&quot;: [
+                {
+                    &quot;height&quot;: 640,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/640/ab67616d0000b273397164050097ff1625368970ab67616d0000b273a933ccb8e748208d21ca3f08ab67616d0000b273d7d21e3a8dfd81a489a35e29ab67616d0000b273de20cdc5935096897bb687fc&quot;,
+                    &quot;width&quot;: 640
+                },
+                {
+                    &quot;height&quot;: 300,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/300/ab67616d0000b273397164050097ff1625368970ab67616d0000b273a933ccb8e748208d21ca3f08ab67616d0000b273d7d21e3a8dfd81a489a35e29ab67616d0000b273de20cdc5935096897bb687fc&quot;,
+                    &quot;width&quot;: 300
+                },
+                {
+                    &quot;height&quot;: 60,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/60/ab67616d0000b273397164050097ff1625368970ab67616d0000b273a933ccb8e748208d21ca3f08ab67616d0000b273d7d21e3a8dfd81a489a35e29ab67616d0000b273de20cdc5935096897bb687fc&quot;,
+                    &quot;width&quot;: 60
+                }
+            ],
+            &quot;name&quot;: &quot;Ann-Katrin&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;null&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/null&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/null&quot;,
+                &quot;id&quot;: &quot;null&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:null&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: true,
+            &quot;snapshot_id&quot;: &quot;MTIzLDAzODI2OTViZmFjMWYxNGMyODkwZTcwNTA4ZmUxMjExYjk5ZTJiMTg=&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/5gfGqtxfvV4QC23LfExbBk/tracks&quot;,
+                &quot;total&quot;: 110
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:5gfGqtxfvV4QC23LfExbBk&quot;
+        },
+        {
+            &quot;collaborative&quot;: false,
+            &quot;description&quot;: &quot;&quot;,
+            &quot;external_urls&quot;: {
+                &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/2Wqq5oDiNvWSQ8tTZto26e&quot;
+            },
+            &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/2Wqq5oDiNvWSQ8tTZto26e&quot;,
+            &quot;id&quot;: &quot;2Wqq5oDiNvWSQ8tTZto26e&quot;,
+            &quot;images&quot;: [
+                {
+                    &quot;height&quot;: 640,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/640/ab67616d0000b273617f78eb4389bb0a7d27719aab67616d0000b2736869ac350535afb4f244dc56ab67616d0000b273921a726111dcda01c318f03eab67616d0000b2739ef5f0d63ad90c3ddef7d3b1&quot;,
+                    &quot;width&quot;: 640
+                },
+                {
+                    &quot;height&quot;: 300,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/300/ab67616d0000b273617f78eb4389bb0a7d27719aab67616d0000b2736869ac350535afb4f244dc56ab67616d0000b273921a726111dcda01c318f03eab67616d0000b2739ef5f0d63ad90c3ddef7d3b1&quot;,
+                    &quot;width&quot;: 300
+                },
+                {
+                    &quot;height&quot;: 60,
+                    &quot;url&quot;: &quot;https://mosaic.scdn.co/60/ab67616d0000b273617f78eb4389bb0a7d27719aab67616d0000b2736869ac350535afb4f244dc56ab67616d0000b273921a726111dcda01c318f03eab67616d0000b2739ef5f0d63ad90c3ddef7d3b1&quot;,
+                    &quot;width&quot;: 60
+                }
+            ],
+            &quot;name&quot;: &quot;dansa i kök&quot;,
+            &quot;owner&quot;: {
+                &quot;display_name&quot;: &quot;null&quot;,
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/user/null&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/users/null&quot;,
+                &quot;id&quot;: &quot;null&quot;,
+                &quot;type&quot;: &quot;user&quot;,
+                &quot;uri&quot;: &quot;spotify:user:null&quot;
+            },
+            &quot;primary_color&quot;: null,
+            &quot;public&quot;: true,
+            &quot;snapshot_id&quot;: &quot;OTIsMzIyNGUzOTllOGY3ZWJmMmQxYjdiOGE0MjQ3YjJlZDY1ZjRlOTRmZA==&quot;,
+            &quot;tracks&quot;: {
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/2Wqq5oDiNvWSQ8tTZto26e/tracks&quot;,
+                &quot;total&quot;: 41
+            },
+            &quot;type&quot;: &quot;playlist&quot;,
+            &quot;uri&quot;: &quot;spotify:playlist:2Wqq5oDiNvWSQ8tTZto26e&quot;
+        }
+    ],
+    &quot;limit&quot;: 20,
+    &quot;next&quot;: null,
+    &quot;offset&quot;: 0,
+    &quot;previous&quot;: null,
+    &quot;total&quot;: 4
+}
+{
+    &quot;collaborative&quot;: false,
+    &quot;description&quot;: &quot;New playlist description&quot;,
+    &quot;external_urls&quot;: {
+        &quot;spotify&quot;: &quot;https://open.spotify.com/playlist/31DSgZVLJLuYYdmdL7HDmr&quot;
+    },
+    &quot;followers&quot;: {
+        &quot;href&quot;: null,
+        &quot;total&quot;: 0
+    },
+    &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/31DSgZVLJLuYYdmdL7HDmr&quot;,
+    &quot;id&quot;: &quot;31DSgZVLJLuYYdmdL7HDmr&quot;,
+    &quot;images&quot;: [
+        
+    ],
+    &quot;name&quot;: &quot;New Playlist&quot;,
+    &quot;owner&quot;: {
+        &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+        &quot;external_urls&quot;: {
+            &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+        },
+        &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+        &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+        &quot;type&quot;: &quot;user&quot;,
+        &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+    },
+    &quot;primary_color&quot;: null,
+    &quot;public&quot;: false,
+    &quot;snapshot_id&quot;: &quot;MywyNTY3YTIyOWU0MWE3ZDBlNjY3ZTg2MTQzODk1NDk4ZjI3ZmFhYjUz&quot;,
+    &quot;tracks&quot;: {
+        &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/31DSgZVLJLuYYdmdL7HDmr/tracks?offset=0&amp;limit=100&quot;,
+        &quot;items&quot;: [
+            
+        ],
+        &quot;limit&quot;: 100,
+        &quot;next&quot;: null,
+        &quot;offset&quot;: 0,
+        &quot;previous&quot;: null,
+        &quot;total&quot;: 0
+    },
+    &quot;type&quot;: &quot;playlist&quot;,
+    &quot;uri&quot;: &quot;spotify:playlist:31DSgZVLJLuYYdmdL7HDmr&quot;
+}
+{
+    &quot;error&quot;: {
+        &quot;status&quot;: 404,
+        &quot;message&quot;: &quot;Service not found&quot;
+    }
+}
+{
+    &quot;href&quot;: &quot;https://api.spotify.com/v1/playlists/31DSgZVLJLuYYdmdL7HDmr/tracks?offset=0&amp;limit=100&quot;,
+    &quot;items&quot;: [
+        
+    ],
+    &quot;limit&quot;: 100,
+    &quot;next&quot;: null,
+    &quot;offset&quot;: 0,
+    &quot;previous&quot;: null,
+    &quot;total&quot;: 0
+}
+Response print using sout: io.restassured.internal.RestAssuredResponseImpl@3776e98a
+User Id :316pgn7hgnbehzs4mnxypxxaoz6e
+{
+    &quot;country&quot;: &quot;IN&quot;,
+    &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+    &quot;email&quot;: &quot;&quot;,
+    &quot;explicit_content&quot;: {
+        &quot;filter_enabled&quot;: false,
+        &quot;filter_locked&quot;: false
+    },
+    &quot;external_urls&quot;: {
+        &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+    },
+    &quot;followers&quot;: {
+        &quot;href&quot;: null,
+        &quot;total&quot;: 0
+    },
+    &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+    &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+    &quot;images&quot;: [
+        
+    ],
+    &quot;product&quot;: &quot;open&quot;,
+    &quot;type&quot;: &quot;user&quot;,
+    &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+}
+{
+    &quot;display_name&quot;: &quot;Nagesh Kolhe&quot;,
+    &quot;external_urls&quot;: {
+        &quot;spotify&quot;: &quot;https://open.spotify.com/user/316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+    },
+    &quot;followers&quot;: {
+        &quot;href&quot;: null,
+        &quot;total&quot;: 0
+    },
+    &quot;href&quot;: &quot;https://api.spotify.com/v1/users/316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+    &quot;id&quot;: &quot;316pgn7hgnbehzs4mnxypxxaoz6e&quot;,
+    &quot;images&quot;: [
+        
+    ],
+    &quot;type&quot;: &quot;user&quot;,
+    &quot;uri&quot;: &quot;spotify:user:316pgn7hgnbehzs4mnxypxxaoz6e&quot;
+}
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at 02-Aug-2021, 11:19:58 pm</p>
+</div>
+</div>
+</body>
+</html>
